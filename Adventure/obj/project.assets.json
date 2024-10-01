@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gmajo\\Documents\\Programing projects\\Revature\\Experiments\\Adventure\\Adventure.csproj",
+      "projectUniqueName": "C:\\Users\\gmajo\\Documents\\Programing projects\\Revature\\Experiments\\GabrielMCaveExplorer\\Adventure\\Adventure.csproj",
       "projectName": "Adventure",
-      "projectPath": "C:\\Users\\gmajo\\Documents\\Programing projects\\Revature\\Experiments\\Adventure\\Adventure.csproj",
+      "projectPath": "C:\\Users\\gmajo\\Documents\\Programing projects\\Revature\\Experiments\\GabrielMCaveExplorer\\Adventure\\Adventure.csproj",
       "packagesPath": "C:\\Users\\gmajo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gmajo\\Documents\\Programing projects\\Revature\\Experiments\\Adventure\\obj\\",
+      "outputPath": "C:\\Users\\gmajo\\Documents\\Programing projects\\Revature\\Experiments\\GabrielMCaveExplorer\\Adventure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\gmajo\\AppData\\Roaming\\NuGet\\NuGet.Config",

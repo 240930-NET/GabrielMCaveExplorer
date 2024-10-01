@@ -1,7 +1,7 @@
-class item{
-    public string description;
-    public string name;
-    public item(string name, string desc)
+public class Item{
+    string description;
+    string name;
+    public Item(string name, string desc)
     {
         this.name = name;
         description = desc;

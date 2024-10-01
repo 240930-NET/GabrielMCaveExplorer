@@ -22,15 +22,20 @@ class Adventure
 
         bmp.Save("demo.png");*/
 
-        int[][] maze = {
+        int[,] maze = {
             {0,1,0,0,1,1,1,1},
             {1,1,1,1,1,0,0,0},
             {1,0,0,1,0,1,1,1},
             {1,1,1,1,1,0,1,0},
             {0,1,1,0,1,1,1,1}
-        }
+        };
 
-        List<string> inventory = {};
+        Room[,] Cave = new Room[8,8];
+
+        List<Room> Rooms = [];
+
+        List<Item> inventory = [];
+        int[] pos = {0, 8};
 
         Console.WriteLine("You wake up in a dark cave with nothing on your person, an eerie dripping can be heard echoing from the darkness");
         string comm = "";
@@ -41,20 +46,32 @@ class Adventure
             printCommandList();
             Console.WriteLine("What action would you like to take?");
             comm = Console.ReadLine();
-            comms = comm.Split();
+            string[] comms = comm.Split();
 
+            if (comms[0].Equals("Move", StringComparison.OrdinalIgnoreCase))
+            {
+                pos = move(comms[1], pos);
+            }
         }
     }
 
-    public void printCommandList()
+    public static void printCommandList()
     {
         Console.WriteLine("Available commands:");
-        Console.WriteLine("Move\n Pickup\n Interact\n Talk\n")
+        Console.WriteLine(
+            "  Move {Cordinal direction}\n   Inventory\n   Pickup\n   Interact\n   Talk\n   Exit"
+            );
     }
 
-    public void commandHandler(string comm)
+    public static void commandHandler(string comm)
     {
 
     }
+    public static int[] move(string direction, int[] currentPos)
+    {
+        return [0, 0];
+    } 
 }
+
+
 
