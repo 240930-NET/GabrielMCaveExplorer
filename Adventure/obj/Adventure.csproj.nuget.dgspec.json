@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gmajo\\Documents\\Programing projects\\Revature\\Experiments\\GabrielMCaveExplorer\\Adventure\\Adventure.csproj": {}
+    "c:\\Users\\gmajo\\Documents\\Programing projects\\Revature\\Experiments\\GabrielMCaveExplorer\\Adventure\\Adventure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gmajo\\Documents\\Programing projects\\Revature\\Experiments\\GabrielMCaveExplorer\\Adventure\\Adventure.csproj": {
+    "c:\\Users\\gmajo\\Documents\\Programing projects\\Revature\\Experiments\\GabrielMCaveExplorer\\Adventure\\Adventure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gmajo\\Documents\\Programing projects\\Revature\\Experiments\\GabrielMCaveExplorer\\Adventure\\Adventure.csproj",
+        "projectUniqueName": "c:\\Users\\gmajo\\Documents\\Programing projects\\Revature\\Experiments\\GabrielMCaveExplorer\\Adventure\\Adventure.csproj",
         "projectName": "Adventure",
-        "projectPath": "C:\\Users\\gmajo\\Documents\\Programing projects\\Revature\\Experiments\\GabrielMCaveExplorer\\Adventure\\Adventure.csproj",
+        "projectPath": "c:\\Users\\gmajo\\Documents\\Programing projects\\Revature\\Experiments\\GabrielMCaveExplorer\\Adventure\\Adventure.csproj",
         "packagesPath": "C:\\Users\\gmajo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gmajo\\Documents\\Programing projects\\Revature\\Experiments\\GabrielMCaveExplorer\\Adventure\\obj\\",
+        "outputPath": "c:\\Users\\gmajo\\Documents\\Programing projects\\Revature\\Experiments\\GabrielMCaveExplorer\\Adventure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gmajo\\AppData\\Roaming\\NuGet\\NuGet.Config",
