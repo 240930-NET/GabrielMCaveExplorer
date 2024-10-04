@@ -2,17 +2,17 @@ namespace Adventure.Environment;
 
 public abstract class Interactable
 {
-    private string appearanceText {get; set;} 
-    private string interactionText {get; set;} 
+    public string AppearanceText {get; set;} 
+    public string InteractionText {get; set;} 
     public Interactable(string appearanceText, string interactionText)
     {
-        this.appearanceText = appearanceText;
-        this.interactionText = interactionText;
+        this.AppearanceText = appearanceText;
+        this.InteractionText = interactionText;
     }
 
     public void interact()
     {
-        Console.WriteLine(interactionText);
+        Console.WriteLine(InteractionText);
         Action();
     }
     public abstract void Action();

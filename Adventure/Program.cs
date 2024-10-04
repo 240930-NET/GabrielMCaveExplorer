@@ -27,6 +27,7 @@ class Adventure
         bmp.Save("demo.png");*/
 
         World world = World.instance;
+        world.CurrentRoom = new Room("Start", "You wake up in a dark cave with nothing on your person but the clothes you wear, an eerie dripping can be heard echoing from the darkness", []);
 
         int[,] maze = {
             {0,1,0,0,1,1,1,1},
@@ -50,27 +51,20 @@ class Adventure
         {
             Terminal.printCommandList();
             Console.WriteLine("What action would you like to take?");
-            comm = Console.ReadLine();
-            if (comm != null)
-            {
-                string[] comms = comm.Split();
+            comm = Console.ReadLine() ?? " ";
+            string[] comms = comm.Split();
 
-                if (comms.GetLength(0) > 1)
-                {
-                    if (comms[0].Equals("Move", StringComparison.OrdinalIgnoreCase))
-                    {
-                        if (comms.GetLength(0) > 2)
-                        {
-                            pos = Terminal.move(comms[1], pos);
-                        }
-                        else
-                        Console.WriteLine("Please enter a direction with your move command\n"); 
-                    }
-                }
-            }
-            else
+            if (comms.GetLength(0) > 1)
             {
-                comm = "";
+                if (comms[0].Equals("Move", StringComparison.OrdinalIgnoreCase))
+                {
+                    if (comms.GetLength(0) > 2)
+                    {
+                        pos = Terminal.move(comms[1], pos);
+                    }
+                    else
+                    Console.WriteLine("Please enter a direction with your move command\n"); 
+                }
             }
             
         }

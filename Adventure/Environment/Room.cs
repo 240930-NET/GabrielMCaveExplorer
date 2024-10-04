@@ -1,8 +1,15 @@
 namespace Adventure.Environment;
 
-public class Room(int x, int y, string desc, List<Interactable> its)
+public class Room(string name, string desc, List<Interactable> its)
 {
-    private int[] Cords { get; set; } = [x, y];
-    private string description { get; set; } = desc;
-    public List<Interactable> interactables = its;
+    private string Name { get; set; } = name;
+    private string Description { get; set; } = desc;
+    public List<Interactable> interactables = its ?? [];
+
+    public void WriteAppearance()
+    {
+        Console.WriteLine(Description);
+        foreach (Interactable interactable in interactables)
+            Console.WriteLine(interactable.AppearanceText);
+    }
 }
