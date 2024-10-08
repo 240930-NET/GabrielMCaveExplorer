@@ -2,10 +2,8 @@ using Adventure.Environment;
 
 public class Item : Interactable{
     string description;
-    string name;
-    public Item(string appearanceText, string interactionTxt, string name, string desc) : base(appearanceText, interactionTxt)
+    public Item(string name, string appearanceText, string interactionTxt, string desc) : base(name, appearanceText, interactionTxt)
     {
-        this.name = name;
         description = desc;
     }
 

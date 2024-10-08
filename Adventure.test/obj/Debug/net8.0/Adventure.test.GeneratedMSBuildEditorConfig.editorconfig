@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Adventure.test
-build_property.ProjectDir = C:\Users\gmajo\Documents\Programing projects\Revature\Experiments\GabrielMCaveExplorer\Adventure.test\
+build_property.ProjectDir = C:\Users\gmajo\Documents\Programing projects\Revature\Experiments\GabrielMCaveExplorer\Adventure.Test\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

@@ -2,21 +2,21 @@ namespace Adventure.UI;
 
 public static class Terminal
 {
-    private static List<string> validCommands = ["Move", "Inventory", "Pickup", "Interact", "Talk", "Use", "Exit"];
-    public static List<string> getValidCommands() => validCommands;
+    private static List<string> validCommands = ["Help", "Move", "Inventory", "Pickup", "Interact", "Talk", "Use", "Exit"];
+    public static List<string> GetValidCommands() => validCommands;
     public static void printCommandList()
     {
         Console.WriteLine("Available commands:");
         Console.WriteLine(
-            "  Move {Door}\n   Inventory\n   Pickup\n   Interact\n   Talk\n   Use\n   Exit"
+            "   Help\n   Move {Door}\n   Inventory\n   Pickup\n   Interact\n   Talk\n   Use\n   Exit"
             );
     }
 
-    public static void commandHandler(string comm)
+    public static void GetCommand(string comm)
     {
 
     }
-    public static int[] move(string direction, int[] currentPos)
+    public static int[] Move(string direction, int[] currentPos)
     {
         int[] newPos = currentPos;
         if (direction.Equals("North", StringComparison.OrdinalIgnoreCase))

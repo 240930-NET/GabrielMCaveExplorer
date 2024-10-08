@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gmajo\\Documents\\Programing projects\\Revature\\Experiments\\GabrielMCaveExplorer\\Adventure.test\\Adventure.test.csproj": {}
+    "C:\\Users\\gmajo\\Documents\\Programing projects\\Revature\\Experiments\\GabrielMCaveExplorer\\Adventure.Test\\Adventure.test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gmajo\\Documents\\Programing projects\\Revature\\Experiments\\GabrielMCaveExplorer\\Adventure.test\\Adventure.test.csproj": {
+    "C:\\Users\\gmajo\\Documents\\Programing projects\\Revature\\Experiments\\GabrielMCaveExplorer\\Adventure.Test\\Adventure.test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gmajo\\Documents\\Programing projects\\Revature\\Experiments\\GabrielMCaveExplorer\\Adventure.test\\Adventure.test.csproj",
+        "projectUniqueName": "C:\\Users\\gmajo\\Documents\\Programing projects\\Revature\\Experiments\\GabrielMCaveExplorer\\Adventure.Test\\Adventure.test.csproj",
         "projectName": "Adventure.test",
-        "projectPath": "C:\\Users\\gmajo\\Documents\\Programing projects\\Revature\\Experiments\\GabrielMCaveExplorer\\Adventure.test\\Adventure.test.csproj",
+        "projectPath": "C:\\Users\\gmajo\\Documents\\Programing projects\\Revature\\Experiments\\GabrielMCaveExplorer\\Adventure.Test\\Adventure.test.csproj",
         "packagesPath": "C:\\Users\\gmajo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gmajo\\Documents\\Programing projects\\Revature\\Experiments\\GabrielMCaveExplorer\\Adventure.test\\obj\\",
+        "outputPath": "C:\\Users\\gmajo\\Documents\\Programing projects\\Revature\\Experiments\\GabrielMCaveExplorer\\Adventure.Test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gmajo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "c:\\Users\\gmajo\\Documents\\Programing projects\\Revature\\Experiments\\GabrielMCaveExplorer\\Adventure\\Adventure.csproj": {
-                "projectPath": "c:\\Users\\gmajo\\Documents\\Programing projects\\Revature\\Experiments\\GabrielMCaveExplorer\\Adventure\\Adventure.csproj"
+              "C:\\Users\\gmajo\\Documents\\Programing projects\\Revature\\Experiments\\GabrielMCaveExplorer\\Adventure\\Adventure.csproj": {
+                "projectPath": "C:\\Users\\gmajo\\Documents\\Programing projects\\Revature\\Experiments\\GabrielMCaveExplorer\\Adventure\\Adventure.csproj"
               }
             }
           }
@@ -86,14 +86,14 @@
         }
       }
     },
-    "c:\\Users\\gmajo\\Documents\\Programing projects\\Revature\\Experiments\\GabrielMCaveExplorer\\Adventure\\Adventure.csproj": {
+    "C:\\Users\\gmajo\\Documents\\Programing projects\\Revature\\Experiments\\GabrielMCaveExplorer\\Adventure\\Adventure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\gmajo\\Documents\\Programing projects\\Revature\\Experiments\\GabrielMCaveExplorer\\Adventure\\Adventure.csproj",
+        "projectUniqueName": "C:\\Users\\gmajo\\Documents\\Programing projects\\Revature\\Experiments\\GabrielMCaveExplorer\\Adventure\\Adventure.csproj",
         "projectName": "Adventure",
-        "projectPath": "c:\\Users\\gmajo\\Documents\\Programing projects\\Revature\\Experiments\\GabrielMCaveExplorer\\Adventure\\Adventure.csproj",
+        "projectPath": "C:\\Users\\gmajo\\Documents\\Programing projects\\Revature\\Experiments\\GabrielMCaveExplorer\\Adventure\\Adventure.csproj",
         "packagesPath": "C:\\Users\\gmajo\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\gmajo\\Documents\\Programing projects\\Revature\\Experiments\\GabrielMCaveExplorer\\Adventure\\obj\\",
+        "outputPath": "C:\\Users\\gmajo\\Documents\\Programing projects\\Revature\\Experiments\\GabrielMCaveExplorer\\Adventure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gmajo\\AppData\\Roaming\\NuGet\\NuGet.Config",

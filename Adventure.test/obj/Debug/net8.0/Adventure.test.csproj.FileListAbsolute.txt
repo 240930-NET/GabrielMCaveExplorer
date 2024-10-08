@@ -98,3 +98,9 @@ c:\Users\gmajo\Documents\Programing projects\Revature\Experiments\GabrielMCaveEx
 c:\Users\gmajo\Documents\Programing projects\Revature\Experiments\GabrielMCaveExplorer\Adventure.test\obj\Debug\net8.0\Adventure.test.pdb
 c:\Users\gmajo\Documents\Programing projects\Revature\Experiments\GabrielMCaveExplorer\Adventure.test\obj\Debug\net8.0\Adventure.test.genruntimeconfig.cache
 c:\Users\gmajo\Documents\Programing projects\Revature\Experiments\GabrielMCaveExplorer\Adventure.test\obj\Debug\net8.0\ref\Adventure.test.dll
+C:\Users\gmajo\Documents\Programing projects\Revature\Experiments\GabrielMCaveExplorer\Adventure.Test\bin\Debug\net8.0\CoverletSourceRootsMapping_Adventure.test
+C:\Users\gmajo\Documents\Programing projects\Revature\Experiments\GabrielMCaveExplorer\Adventure.Test\bin\Debug\net8.0\Adventure.deps.json
+C:\Users\gmajo\Documents\Programing projects\Revature\Experiments\GabrielMCaveExplorer\Adventure.Test\bin\Debug\net8.0\Adventure.runtimeconfig.json
+C:\Users\gmajo\Documents\Programing projects\Revature\Experiments\GabrielMCaveExplorer\Adventure.Test\bin\Debug\net8.0\Adventure.exe
+C:\Users\gmajo\Documents\Programing projects\Revature\Experiments\GabrielMCaveExplorer\Adventure.Test\bin\Debug\net8.0\Adventure.dll
+C:\Users\gmajo\Documents\Programing projects\Revature\Experiments\GabrielMCaveExplorer\Adventure.Test\bin\Debug\net8.0\Adventure.pdb

@@ -1,15 +1,24 @@
 namespace Adventure.Environment;
+using System.Linq;
 
-public class Room(string name, string desc, List<Interactable> its)
+public class Room(string name, string desc, Dictionary<string, Interactable> its)
 {
-    private string Name { get; set; } = name;
-    private string Description { get; set; } = desc;
-    public List<Interactable> interactables = its ?? [];
+    public string Name { get; set; } = name;
+    public string Description { get; set; } = desc;
+    public Dictionary<string, Interactable> interactables = its ?? [];
 
     public void WriteAppearance()
     {
         Console.WriteLine(Description);
-        foreach (Interactable interactable in interactables)
-            Console.WriteLine(interactable.AppearanceText);
+        List<Interactable> listInts = interactables.Values.ToList();
+        foreach (Interactable interactable in listInts)
+            Console.WriteLine("\n" + interactable.AppearanceText);
+
+        Console.WriteLine("\nYou can interact with the...");
+        foreach (Interactable interactable in listInts)
+            Console.Write("\t" + interactable.Name);
+
+        Console.WriteLine();
+        return;
     }
 }

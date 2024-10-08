@@ -1,15 +1,12 @@
-using Adventure.Environment;
+namespace Adventure.Environment;
 
-public class Exit : Interactable
+public class Exit(string Name, string appearanceText, string interactionTxt, Room next) : Interactable(Name, appearanceText, interactionTxt)
 {
-    private Room next {get; set;}
-    public Exit(string appearanceText, string interactionTxt, Room next) : base(appearanceText, interactionTxt)
-    {
-        this.next = next;
-    }
+    private Room next { get; set; } = next;
 
     public override void Action()
     {
         World.instance.CurrentRoom = next;
+        next.WriteAppearance();
     }
 }
