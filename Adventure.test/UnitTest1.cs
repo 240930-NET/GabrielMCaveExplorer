@@ -19,9 +19,22 @@ public class UnitTest1
         world.CurrentRoom = world.Map["Test"];
         Console.WriteLine(world.Map);
 
-        World.Move(testExit.Name);
+        world.NextCommand(["Move", testExit.Name]);
 
         Assert.Equal(testNextRoom.Name, world.CurrentRoom.Name);
+    }
+
+    [Fact]
+    public void PickupCommandWorks()
+    {
+        Item testItem = new Item("TestItem", "test appearance", "Test interaction", "test desc");
+        Room testRoom = new Room("TestRoom","TestRoomDesc", new Dictionary<string, Interactable>{{"TestItem", testItem}});
+        World world = World.instance;
+        world.Map.Add("TestRoom", testRoom);
+        world.CurrentRoom = world.Map["TestRoom"];
+        world.NextCommand(["Pickup", "TestItem"]);
+        Assert.Single(world.Inventory);
+        Assert.Equal(testItem.Name, world.Inventory[0].Name);
     }
 
     [Fact]
