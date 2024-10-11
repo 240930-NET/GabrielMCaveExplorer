@@ -92,7 +92,8 @@ public sealed class World
             var options = new JsonSerializerOptions
             {
                 ReferenceHandler = ReferenceHandler.Preserve,
-                IncludeFields = true
+                IncludeFields = true,
+                WriteIndented = true
             };
             writer.WriteLine(JsonSerializer.Serialize(instance.Inventory, options));
             writer.WriteLine(JsonSerializer.Serialize(instance.Map, options));
@@ -180,6 +181,10 @@ public sealed class World
                 PrintCommandList();
                 CurrentRoom?.WriteAppearance();
             }
+            else
+            {
+                Console.WriteLine("Please enter a valid command");
+            }
         }
     }
 
@@ -205,7 +210,7 @@ public sealed class World
         Room tempRoom = new Room(
             "WatchRoom",
             "You continue down the cave, passing wooden chairs and tapastries depicting beings from what you assume to be some cultures epics or legends."
-            + " Some seem horrorfics, some triumphant. As you continue further, the cave gives way to porceline tile floors. man made wooden "
+            + " Some seem horrorfics, some triumphant. As you continue further, the cave gives way to porceline tile floors. Man made wooden "
             + "struts extend from the floors and up along the walls till they touch the ceiling. This part of the cave was clearly... not natural..."
             + "The hallway eventually clears to a room.",
             []
@@ -219,13 +224,26 @@ public sealed class World
 
         tempRoom.interactables.Add("Book",
             new Item(
-                "Book", "On the table sits an ominous looking text, it's flipped to a page with various symbols you can't identify.", "You shut the book and carry it under your arm.", "The pages are filled with an indescribable language, you can't decipher the maing behind any images either."
+                "Book", "On the table sits an ominous looking text, it's flipped to a page with various symbols you can't identify.", 
+                "You shut the book and carry it under your arm.", 
+                "The pages are filled with an indescribable language, you can't decipher the maing behind any images either."
+            )
+        );
+
+        tempRoom.interactables.Add("Bucket",
+            new Item(
+                "Bucket of Water", 
+                "There's a bucket in the corner collecting water from the stalagtite ceiling, seems that's where the dripping sound was from", 
+                "You pickup the bucket by the handle, being careful not to spill the water.", 
+                "It's a bucket of cave ceilign water."
             )
         );
 
         tempRoom.interactables.Add("Dark Hallway",
             new Exit(
-                "Dark Hallway", "A dark coridoor extends from the opposite side of the room, you can't make out any details, but a light hum can be heard from its depths.", "You don't want to travel right now.", new Room("","", [])
+                "Dark Hallway", 
+                "A dark coridoor extends from the opposite side of the room, you can't make out any details, but a light hum can be heard from its depths.", 
+                "You don't want to travel right now.", new Room("","", [])
             )
         );
         
